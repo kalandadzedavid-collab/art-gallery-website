@@ -1,0 +1,153 @@
+header {
+    width: 990px;
+    max-height: 800px;
+    background-color: var(--Almost_Black);
+    display: flex;
+    position: relative;
+   
+    
+
+    h1 {
+        position: absolute;
+        margin-left: 165px;
+        margin-top: 189px;
+        mix-blend-mode: difference;
+        color: white !important;
+    }
+
+    div {
+        margin-left: auto;
+
+       
+    }
+
+    .header_last {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 64px;
+        top: 190px;
+        right: -285px;
+        
+        
+        
+
+        p {
+            max-width: 350px;
+        }
+
+        .btn-1 {
+            margin-left: 0;
+        }
+        
+    }
+}
+
+main {
+    padding: 180px 164.5px;
+
+    .main_top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+        div {
+            max-width: 350px;
+        }
+
+        h2 {
+            margin-bottom: 32px;
+        }
+        img {
+            transition: 0.5s;
+        }
+        img:hover {
+            scale: 1.10;
+            border: 5px solid var(--Gold);
+            border-radius: 20px;
+            translate: -200px;
+            transition: 0.5s;
+
+        }
+    }
+
+    .main_bot {
+        display: flex;
+        gap: 30px;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .mid_black {
+            padding: 65px 47px 64px 48px;
+            background-color: var(--Almost_Black);
+            max-width: 445px;
+
+            h2 {
+                color: white !important;
+            }
+
+            p {
+                color: white !important;
+                margin-top: 32px;
+            }
+        }
+
+        img {
+            transition: 0.5s;
+        }
+
+        img:hover {
+            scale: 1.10;
+            border: 5px solid var(--Gold);
+            border-radius: 20px;
+            translate: -300px;
+            
+
+        }
+
+        #odd_pic:hover {
+            scale: 1.10;
+            border: 5px solid var(--Gold);
+            border-radius: 20px;
+            translate: 220px;
+            transition: 0.5s;
+        }
+    }
+}
+
+footer {
+    padding: 80px 165px;
+    background-color: var(--Almost_Black);
+    display: flex;
+    justify-content: space-between;
+    
+    img {
+        align-self: start;
+    }
+
+    p {
+        max-width: 430px;
+        color: white !important;
+    }
+
+    .social {
+        display: flex;
+        gap: 20px;
+        align-items: start;
+
+        img {
+            width: 20px;
+            
+        }
+    }
+}
+
+.tablet_pics {
+    display: none;
+}
