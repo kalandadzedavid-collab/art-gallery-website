@@ -52,9 +52,9 @@
         height: 400px !important;
         width: 398px !important;
       }
-      img:hover {       
+      img:hover {
         translate: -130px;
-    }
+      }
     }
 
     .main_bot {
@@ -69,11 +69,11 @@
       }
       img:hover {
         translate: -200px;
-    }
+      }
 
-    #odd_pic_tablet:hover {
+      #odd_pic_tablet:hover {
         translate: 150px !important;
-    }
+      }
 
       .mid_black {
         padding: 85px 28.5px;
@@ -96,22 +96,25 @@
     padding: 56px 40px;
 
     img {
-        width: 110.05px;
+      width: 110.05px;
     }
 
     p {
-        font-size: 16px;
-        line-height: 26px;
-        max-width: 281px !important;
+      font-size: 16px;
+      line-height: 26px;
+      max-width: 281px !important;
     }
   }
 
-  
-.laptop_pics {
+  .laptop_pics {
     display: none;
+  }
+
+  .tablet_pics {
+    display: unset;
+  }
 }
 
-.tablet_pics {
-    display: unset;
-}
+.mobile_pics {
+  display: none;
 }
